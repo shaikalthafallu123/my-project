@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head><h1>By using javascript</h1>
+
+<tittle></tittle>
+    <style>h1,body{text-align:"center";color: rgb(255, 102, 0);}
+    body{text-align: middle;
+    float:center;
+    font-size: 15px;
+    padding:250px;} 
+    
+    </style>
+</head>
+
+<body>
+    <form autocomplete="on" action="" onsubmit= "return validation()">
+<h1><center> create a form</center></h1>
+
+    first name :<input type="text place holder"="first"><br><br>
+    last name :<input type="text" ="last "><br><br>
+     Email:<input type="email place holder     ="email"><br><br>
+      Gender:<input type ="radio" name         ="Gender">male
+     <input type="radio" name="female">female
+     <input type ="radio"name="others">others<br><br>
+
+     Mobile:<input type="tel placeholder"       =" number"><br><br>
+     Date birth:<input type                     ="date"><br><br>
+     password:<input type="password" ="password"><br><br>
+     Age:<input type="enter your age"="age"><br><br>
+     is admin:<input type="checkbox"><br></br>
+     <label value ="select game">select game</lable>
+     <select id="games">
+     <option value ="games">select game</option>
+     <option value ="football">football</option> <br><br>
+     <option value ="cricket">cricket</option><br><br>
+     <option value ="kabadi">kabadi</option><br><br>
+     </select></br></br>
+
+     submit here:<input type="submit"="successfull"><br><br>
+
+
+</form>
+<script type="text/javascript">
+
+function validation(){
+    var first= document.getElementbyid('first').value;
+    var last= document.getElementbyid('last').value;
+    var email= document.getElementbyid('email').value;
+    var Gender= document.getElementbyid('Gender').value;
+    var date= document.getElementbyid('date').value;
+    var password= document.getElementbyid('password').value;
+    var age= document.getElementbyid('age').value;
+    var isadmin= document.getElementbyid('isadmin').value
+    var games= document.getElementbyid('games').value
+    var file= document.getElementbyid('file').value;
+
+
+}
+
+</script>
+     
+    </body>
+    </html>
+

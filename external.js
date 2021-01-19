@@ -1,0 +1,1 @@
+documnt.write("welcome to java script file");
