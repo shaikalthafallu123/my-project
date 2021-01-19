@@ -1,0 +1,36 @@
+the have three ways to declaring javascript variable:
+
+  *var
+  *let
+  *const
+
+   1: var:-variable in javascript are container which hold reusable date.they are like cups filled with stuff,
+   and this stuff can be used over and over again dependingon whichever way we choose.
+
+   key words: var x;
+              var y;
+              var z; 
+   2:let:-inshort it helpsus by makes it eaiser to see where variables lives in our code.
+
+    key words: let x=20;
+               let x=50;3
+3:const:-when ou are sure a variable will not be reduced.
+
+     const x=20;
+     const y='boy';
+     const z='developer';
+
+
+
+   function declaration:
+            
+ A function declaration is a statement containing a funtion prototype (function name,return type, the type
+  of parameters and their order).a if the funtion prototype is also followed by a brace-enclosed body,which generatres storage in the code space.
+ 
+  function expression :
+  
+  a javascript function can also be defined using an epression .a function expression can be stored in a 
+   variable.
+          
+           var x= function (a,b) {return a*b};
+           after function expressionhas been stored in a variable the variable can be used as a function.
