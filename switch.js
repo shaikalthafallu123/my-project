@@ -1,8 +1,3 @@
-<DOCTYPE html>
-  <html>
-  <head>to create switch
-  <body>
-  <script>
 var marks=120;
 switch(true){
 case marks>90:result="A grade";
@@ -16,6 +11,3 @@ break;
 defalut:fail;
 }
 document.write(result);
-</script>
-</body>
-</html>
